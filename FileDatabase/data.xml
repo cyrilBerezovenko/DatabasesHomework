@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<ArrayOfStudent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Student>
+    <id>1</id>
+    <name>first</name>
+    <surname>prvni</surname>
+  </Student>
+  <Student>
+    <id>2</id>
+    <name>second</name>
+    <surname>druhy</surname>
+  </Student>
+  <Student>
+    <id>3</id>
+    <name>third</name>
+    <surname>trzeti</surname>
+  </Student>
+  <Student>
+    <id>4</id>
+    <name>fourth</name>
+    <surname>cztvrty</surname>
+  </Student>
+</ArrayOfStudent>

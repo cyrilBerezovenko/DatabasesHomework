@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDatabase", "FileDatabase\FileDatabase.csproj", "{2655A75E-3948-4B6E-89A1-B10C56C47CAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControlDatabase", "UserControlDatabase\UserControlDatabase.csproj", "{EBEA153F-430C-405C-BC66-9BC001979CFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2655A75E-3948-4B6E-89A1-B10C56C47CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2655A75E-3948-4B6E-89A1-B10C56C47CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2655A75E-3948-4B6E-89A1-B10C56C47CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBEA153F-430C-405C-BC66-9BC001979CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBEA153F-430C-405C-BC66-9BC001979CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBEA153F-430C-405C-BC66-9BC001979CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBEA153F-430C-405C-BC66-9BC001979CFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

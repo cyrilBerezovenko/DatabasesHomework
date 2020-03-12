@@ -59,5 +59,8 @@ namespace FileDatabase {
 
 		private void Form1_FormClosed(object sender, FormClosedEventArgs e) => SaveData();
 
+		private void table_CellClick(object sender, DataGridViewCellEventArgs e) {
+
+		}
 	}
 }

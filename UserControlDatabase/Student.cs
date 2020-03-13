@@ -12,26 +12,20 @@ namespace UserControlDatabase {
 	public class Student {
 
 		public string id;
-		public string name;
-		public string surname;
+		public string name { get; set; }
+		public string surname { get; set; }
+		public string imageLocation;
 
 		public Student() { }
 
-		public Student(string id, string name, string surname) {
+		public Student(string id, string name, string surname, string imageLocation) {
 			this.id = id;
 			this.name = name;
 			this.surname = surname;
+			this.imageLocation = imageLocation;
 		}
 
-		public override string ToString() => 
-			surname ?? "<unnamed>";
-
-		public Student Clone() {
-			Student other = new Student();
-			other.id = id;
-			other.name = name;
-			other.surname = surname;
-			return other;
-		}
+		public override string ToString() =>
+			surname == "" || surname == null ? "<unnamed>" : surname;
 	}
 }

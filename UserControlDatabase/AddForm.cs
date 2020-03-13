@@ -18,18 +18,27 @@ namespace UserControlDatabase {
 		public AddForm(MainForm mainForm) {
 			InitializeComponent();
 
+			KeyPreview = true;
 			this.mainForm = mainForm;
 			student = new Student();
 			uc = new StudentUserControl(student);
-			panel1.Controls.Add(uc);
 		}
 
 		private void AddForm_FormClosed(object sender, FormClosedEventArgs e) {
-			mainForm.AddItem(student);
+			mainForm.bs.Add(student);
 		}
 
-		private void button1_Click(object sender, EventArgs e) {
+		private void addButton_Click(object sender, EventArgs e) {
 			Close();
+		}
+
+		private void AddForm_Load(object sender, EventArgs e) {
+			panel.Controls.Add(uc);
+		}
+
+		private void AddForm_KeyDown(object sender, KeyEventArgs e) {
+			if (e.KeyCode == Keys.Return)
+				Close();
 		}
 	}
 }

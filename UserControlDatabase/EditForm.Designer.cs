@@ -1,5 +1,5 @@
 ﻿namespace UserControlDatabase {
-	partial class AddForm {
+	partial class EditForm {
 		/// <summary>
 		/// Required designer variable.
 		/// </summary>
@@ -24,7 +24,7 @@
 		/// </summary>
 		private void InitializeComponent() {
 			this.panel = new System.Windows.Forms.Panel();
-			this.addButton = new System.Windows.Forms.Button();
+			this.saveButton = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// panel
@@ -34,29 +34,28 @@
 			this.panel.Size = new System.Drawing.Size(354, 133);
 			this.panel.TabIndex = 0;
 			// 
-			// addButton
+			// saveButton
 			// 
-			this.addButton.Location = new System.Drawing.Point(148, 160);
-			this.addButton.Name = "addButton";
-			this.addButton.Size = new System.Drawing.Size(75, 23);
-			this.addButton.TabIndex = 1;
-			this.addButton.Text = "Add";
-			this.addButton.UseVisualStyleBackColor = true;
-			this.addButton.Click += new System.EventHandler(this.addButton_Click);
+			this.saveButton.Location = new System.Drawing.Point(148, 160);
+			this.saveButton.Name = "saveButton";
+			this.saveButton.Size = new System.Drawing.Size(75, 23);
+			this.saveButton.TabIndex = 1;
+			this.saveButton.Text = "Save";
+			this.saveButton.UseVisualStyleBackColor = true;
+			this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
 			// 
-			// AddForm
+			// EditForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(368, 195);
-			this.Controls.Add(this.addButton);
+			this.Controls.Add(this.saveButton);
 			this.Controls.Add(this.panel);
-			this.Name = "AddForm";
+			this.Name = "EditForm";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-			this.Text = "AddForm";
-			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AddForm_FormClosed);
-			this.Load += new System.EventHandler(this.AddForm_Load);
-			this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.AddForm_KeyDown);
+			this.Text = "EditForm";
+			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.EditForm_FormClosing);
+			this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.EditForm_KeyDown);
 			this.ResumeLayout(false);
 
 		}
@@ -64,6 +63,6 @@
 		#endregion
 
 		private System.Windows.Forms.Panel panel;
-		private System.Windows.Forms.Button addButton;
+		private System.Windows.Forms.Button saveButton;
 	}
 }

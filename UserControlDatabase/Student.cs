@@ -12,8 +12,8 @@ namespace UserControlDatabase {
 	public class Student {
 
 		public string id;
-		public string name { get; set; }
-		public string surname { get; set; }
+		public string name;
+		public string surname;
 		public string imageLocation;
 
 		public Student() { }

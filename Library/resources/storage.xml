@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="yes"?>
+<ArrayOfBook>
+  <Book>
+    <Name>The Picture of Dorian Gray</Name>
+    <Author>Oscar Wilde</Author>
+    <Genre>Novel</Genre>
+    <Language>English</Language>
+  </Book>
+  <Book>
+    <Name>Les Fleurs du mal</Name>
+    <Author>Charles Baudelaire</Author>
+    <Genre>Poetry</Genre>
+    <Language>French</Language>
+  </Book>
+  <Book>
+    <Name>Преступление и наказание</Name>
+    <Author>Фёдор Достоевский</Author>
+    <Genre>Novel</Genre>
+    <Language>Russian</Language>
+  </Book>
+  <Book>
+    <Name>Salomé</Name>
+    <Author>Oscar Wilde</Author>
+    <Genre>Drama</Genre>
+    <Language>French</Language>
+  </Book>
+</ArrayOfBook>

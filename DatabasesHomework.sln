@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileDatabase", "FileDatabas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControlDatabase", "UserControlDatabase\UserControlDatabase.csproj", "{EBEA153F-430C-405C-BC66-9BC001979CFB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{085BF6CD-7E8F-406E-9095-D6876D0F8129}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EBEA153F-430C-405C-BC66-9BC001979CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBEA153F-430C-405C-BC66-9BC001979CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBEA153F-430C-405C-BC66-9BC001979CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{085BF6CD-7E8F-406E-9095-D6876D0F8129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{085BF6CD-7E8F-406E-9095-D6876D0F8129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{085BF6CD-7E8F-406E-9095-D6876D0F8129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{085BF6CD-7E8F-406E-9095-D6876D0F8129}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

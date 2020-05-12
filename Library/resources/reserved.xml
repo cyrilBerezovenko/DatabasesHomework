@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<ArrayOfBook>
+  <Book>
+    <Name>Salomé</Name>
+    <Author>Oscar Wilde</Author>
+    <Genre>Drama</Genre>
+    <Language>French</Language>
+  </Book>
+</ArrayOfBook>

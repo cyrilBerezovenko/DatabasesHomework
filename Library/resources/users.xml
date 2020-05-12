@@ -1,0 +1,11 @@
+<?xml version="1.0" standalone="yes"?>
+<ArrayOfUser>
+	<User>
+		<Name>someone</Name>
+		<Books>
+			<ArrayOfBook>
+				<Book></Book>
+			</ArrayOfBook>
+		</Books>
+  </User>
+</ArrayOfUser>
